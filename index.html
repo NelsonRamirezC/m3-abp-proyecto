@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <script defer src="./assets/js/bootstrap.bundle.js"></script>
 
 </head>
+
 <body>
 
 
@@ -24,18 +26,33 @@
         </div>
     </header>
     <main class="container">
-        <div class="box-profile d-flex justify-content-between">
-            <div class="box-profile__container">
-                <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="box-profile__avatar">
+        <section class="py-3">
+            <div class="box-profile d-flex justify-content-between">
+                <div class="box-profile__container">
+                    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="box-profile__avatar">
+                </div>
+                <div class="box-profile__container">
+                    <i class="bi bi-caret-down-fill box-profile__icon"></i>
+                </div>
             </div>
-            <div class="box-profile__container">
-                <i class="bi bi-caret-down-fill box-profile__icon"></i>
+        </section>
+
+        <section class="py-3">
+            <div class="box-balance">
+                <h2 class="box-balance__title">Wallet Balance</h2>
+
+                <p class="box-balance__amount">$ 983.45</p>
+                <div class="box-balance__container-details">
+                    <span class="box-balance__profit-value">+ $9.48</span>
+                    <span class="box-balance__percent-value box-balance__percent-value--profit ">+ 0.12%</span>
+                </div>
             </div>
-            
-        </div>
-        
+        </section>
+
+
     </main>
-    
-    
+
+
 </body>
+
 </html>

@@ -40,3 +40,43 @@
 
     
 }
+
+
+
+//ESTILOS COMPONETE box-balance
+
+.box-balance {
+    @extend %box;
+
+
+    &__title {
+        color:grey;
+        font-size: 1rem;
+    }
+
+    &__amount {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    &__container-details{
+        display:flex;
+        justify-content: space-between;
+        font-size: 1.75rem;
+        font-weight: 600;
+    }
+
+    &__profit-value{
+        color:grey;
+    }
+
+    &__percent-value{
+        color: blue;
+        &--profit{
+            color: green;
+        }
+        &--loss{
+            color:red;
+        }
+    }
+}

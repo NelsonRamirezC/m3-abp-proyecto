@@ -12069,7 +12069,7 @@ p, small, a {
   font-variation-settings: "wdth" 100;
 }
 
-.box-profile {
+.box-balance, .box-profile {
   border-radius: 10px;
   border: 1px solid black;
   background-color: white;
@@ -12103,6 +12103,33 @@ p, small, a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.box-balance__title {
+  color: grey;
+  font-size: 1rem;
+}
+.box-balance__amount {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.box-balance__container-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.box-balance__profit-value {
+  color: grey;
+}
+.box-balance__percent-value {
+  color: blue;
+}
+.box-balance__percent-value--profit {
+  color: green;
+}
+.box-balance__percent-value--loss {
+  color: red;
 }
 
 /*# sourceMappingURL=main.css.map */
