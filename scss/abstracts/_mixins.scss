@@ -3,3 +3,10 @@
     background-color: rgb(23, 22, 22);
     color: white;
 }
+
+
+@mixin flex-center {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
