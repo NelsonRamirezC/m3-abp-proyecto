@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch scss:assets/css"
+
   },
   "keywords": [],
   "author": "",

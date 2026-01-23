@@ -12132,4 +12132,24 @@ p, small, a {
   color: red;
 }
 
+.btn-circle {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  transition: all 0.5s ease;
+}
+.btn-circle__icon {
+  font-size: 1.5rem;
+}
+.btn-circle--dark {
+  background-color: black;
+  color: white;
+}
+.btn-circle:hover {
+  transform: scale(1.1);
+}
+.btn-circle:active {
+  transform: scale(0.9);
+}
+
 /*# sourceMappingURL=main.css.map */
