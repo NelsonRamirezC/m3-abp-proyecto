@@ -80,3 +80,22 @@
         }
     }
 }
+
+
+.box-option{
+    @extend %box;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.125rem;
+
+    &__text{
+        margin: 0px;
+    }
+
+    &--dark{
+        @include m.box-dark;
+    }
+
+}
